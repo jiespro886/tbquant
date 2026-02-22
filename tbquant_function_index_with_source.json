@@ -1,0 +1,5348 @@
+[
+    {
+        "分类": "变量类型",
+        "函数名": "AddGlobalArray-添加全局数组的值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "变量类型",
+        "函数名": "GetGlobalArray-获取全局数组的值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "变量类型",
+        "函数名": "ClearGlobalArray-清空全局数组的值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "变量类型",
+        "函数名": "临时变量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "变量类型",
+        "函数名": "普通变量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "变量类型",
+        "函数名": "GetBarVar-获取当前Bar上的某个索引的变量值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "变量类型",
+        "函数名": "GetBarVar-获取当前Bar上所有设置的值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "变量类型",
+        "函数名": "GetGlobalVar2-获取某个字符串索引的全局变量值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "变量类型",
+        "函数名": "GetGlobalVar-获取某个索引的全局变量值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "变量类型",
+        "函数名": "Global-策略全局变量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "变量类型",
+        "函数名": "gvalue-策略单元全局变量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "变量类型",
+        "函数名": "Natural-策略数据源全局变量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "变量类型",
+        "函数名": "Series-序列变量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "变量类型",
+        "函数名": "SetBarVar-设置当前Bar上的某个变量值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "变量类型",
+        "函数名": "SetGlobalVar2-设置某个字符串索引的全局变量值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "变量类型",
+        "函数名": "SetGlobalVar-设置某个索引的全局变量值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "数据类型",
+        "函数名": "Bool-布尔型",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "数据类型",
+        "函数名": "Integer-整数型",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "数据类型",
+        "函数名": "Numeric-浮点型",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "数据类型",
+        "函数名": "String-字符型",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "字符函数",
+        "函数名": "Compare-字符串比较大小",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "字符函数",
+        "函数名": "Exact-字符串相等判断",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "字符函数",
+        "函数名": "FindFirstOf-查找字符首次出现位置",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "字符函数",
+        "函数名": "FindLastOf-查找字符最后出现位置",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "字符函数",
+        "函数名": "Left-字符串左截取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "字符函数",
+        "函数名": "Len-字符串长度",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "字符函数",
+        "函数名": "Lower-字符串转小写",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "字符函数",
+        "函数名": "Mid-字符串中间截取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "字符函数",
+        "函数名": "Right-字符串右截取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "字符函数",
+        "函数名": "Section-特殊符号分割截取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "字符函数",
+        "函数名": "StringReplace-字符串替换",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "字符函数",
+        "函数名": "StringSplit-字符串分割",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "字符函数",
+        "函数名": "TextArray-将一维或二维数组转化为字符串",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "字符函数",
+        "函数名": "TextMap-将参数中的映射表转化为字符串",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "字符函数",
+        "函数名": "Text-转成字符串文本",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "字符函数",
+        "函数名": "Trim-删除首尾空格",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "字符函数",
+        "函数名": "Upper-字符串转大写",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "字符函数",
+        "函数名": "Value-字符转数值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "ArrayClear-一维数组元素清空",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "ArrayCompare-一维数组元素比较",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "ArrayCopy-一维数组内容复制",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "ArrayEqual-一维数组是否相等",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "ArrayErase-一维数组元素删除",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "ArrayFind-一维数组元素是否存在",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "ArrayFind-一维数组元素位置查找",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "ArrayInsertRange-一维数组多个数据插入",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "ArrayInsert-一维数组单个数据插入",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "ArrayPushBack-一维数组末尾添加元素",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "ArraySort-一维数组排序",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "ArraySwap-一维数组内容交换",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "SortArrayIds-一维数组排序返回双下标但不改变原数组",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "GetArraySize-一维数组大小获取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "Na1Add-一维数组加法",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "Na1Dev-一维数组减法",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "Na1Div-一维数组除法",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "Na1Muln-一维数组与实数乘法",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "Na1Mul-一维数组乘法",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "Na1Sort2-一维数组排序返回下标不改变原数组",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "Na1Sort-一维数组排序返回下标并改变原数组",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "Na1Sqrt-一维数组平方根",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "SetArraySize-一维数组大小和初始值设置",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "一维数组",
+        "函数名": "SortIds-一维数组排序返回双下标且改变原数组",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "ArrayClear-二维数组全部内容删除",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "ArrayColumnErase-二维数组指定列删除",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "ArrayCompare-二维数组元素比较",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "ArrayCopy-二维数组拷贝",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "ArrayEqual-二维数组是否相等",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "ArrayErase-二维数组行删除",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "ArrayErase-二维数组指定元素删除",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "ArrayInsertRange-二维数组元素批量插入",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "ArrayInsert-二维数组元素插入",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "ArrayPushBack-二维数组尾部追加行",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "ArraySort-二维数组排序",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "ArraySwap-二维数组内容交换",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "Diag-二维数组主对角线元素提取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "GetArraySize-二维数组行大小",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "Na1MulNa2-一维数值乘以二维数组",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "Na2Abs-二维数组绝对值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "Na2Add-二维数组加法",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "Na2Dev-二维数组减法",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "Na2Inv-二维数组的求逆",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "Na2Muln-二维数组与实数的乘法",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "Na2Mul-二维数组乘法",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "Na2Trans-二维数组转置",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "二维数组",
+        "函数名": "SetArraySize-二维数组初始化",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "Map映射表",
+        "函数名": "GetMapKeys-映射表所有key值获取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "Map映射表",
+        "函数名": "GetMapKey-映射表指定索引位置key值获取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "Map映射表",
+        "函数名": "GetMapSize-映射表大小获取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "Map映射表",
+        "函数名": "GetMapValue-映射表中指定索引位置的值获取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "Map映射表",
+        "函数名": "MapClear-映射表全部内容清空",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "Map映射表",
+        "函数名": "MapContain-映射表是否存在key值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "Map映射表",
+        "函数名": "MapErase-映射表指定元素删除",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "Map映射表",
+        "函数名": "MapFind-映射表指定元素查找",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "Map映射表",
+        "函数名": "MapLowerBound-映射表第一个大于或等于key的元素的索引获取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "Map映射表",
+        "函数名": "MapLowerBound-映射表第一个大于或等于key的元素的值获取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "Map映射表",
+        "函数名": "MapUpperBound-映射表第一个大于key的元素的索引获取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "Map映射表",
+        "函数名": "MapUpperBound-映射表第一个大于key的元素的值获取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_1.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "AddDicDataFlag-设置基础数据标识，仅支持在OnInit中使用",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "AddDicFlag-设置基础数据标识，仅支持在OnInit中使用",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "CurrentDicCount-基础数据当前时间之前的个数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "DeleteDicValue-基础数据根据键名、关联名删除",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "DeleteDicValue-基础数据根据键名删除",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "GetDicData-根据基础数据时间点获取基础数据",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "GetDicData-根据键名、关联名、时间点获取基础数据",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "GetDicDescription-基础数据说明获取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "GetDicNames-基础数据键名列表获取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "GetDicSecondKeys-基础数据二级键名获取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "GetDicSymbolDescription-基础数据标的描述信息获取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "GetDicSymbols-基础数据关联标的列表获取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "GetDicTimeRange-基础数据所有时间集合获取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "GetDicTimeRange-指定键名和关联标的获取基础数据所有时间集合",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "GetDicTime-基础数据时间获取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "GetDicTime-指定键名、关联标的、回溯bar获取基础数据时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "GetDicTypeAsEnum-基础数据类型获取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "GetDicTypeAsString-基础数据类型名称获取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "GetDicValue-基础数据小于等于某个时间点的最近的值获取",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "GetDicValue-指定键名和关联标的获取基础数据小于等于某个时间点的最近的值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "SetDicBackSize-设置最大的可供回溯访问的基础数据大小，仅支持在OnInit中使用",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "SetDicData-根据键名、关联名设置基础数据",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "SetDicFlag-基础数据回溯方式属性设置",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "基础数据",
+        "函数名": "SetDicValue-基础数据指定键名、关联名、时间写入",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Abs-参数的绝对值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Acosh-反双曲余弦值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "ACos-反余弦值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Asinh-反双曲正弦值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Asin-反正弦值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Atan2-指定坐标的反正切值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Atanh-反双曲正切值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Atan-反正切值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Ceiling-沿绝对值增大的方向舍入为最接近的整数或基数的最小倍数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Combin-组合",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Cosh-双曲余弦值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Cos-余弦值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Ctan-余切值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Even-沿绝对值增大方向取整后最接近的偶数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Exp-e的N次幂",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Fact-阶乘",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Floor-沿绝对值减小的方向去尾舍入为最接近的基数的倍数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "FracPart-舍入后的小数值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "IntPart-舍入后的整数值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Ln-自然对数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Log-指定底数的对数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Max-求最大值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Min-求最小值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Mod-两数相除的余数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Neg-参数的负绝对值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Odd-对指定数值进行舍入后的奇数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Permutation-排列",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Pi-圆周率",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Power-数字的乘幂",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Rand-随机数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "RoundDown-向绝对值减小的方向舍入数字",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "RoundUp-向绝对值增大的方向舍入数字",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Round-指定位数四舍五入",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Sinh-双曲正弦值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Sin-正弦值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Sqrt-正平方根",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Sqr-平方",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Tanh-双曲正切值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学计算",
+        "函数名": "Tan-正切值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "AverageArray-数组的平均值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "AverageFC-快速计算平均值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "Average-平均值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "AvgDeviationArray-数组的平均偏差",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "AvgDeviation-平均偏差",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "CoefficientRArray-数组的皮尔森相关系数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "CoefficientR-皮尔森相关系数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "CorrelationArray-数组的相关系数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "Correlation-相关系数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "CovarArray-数组的协方差",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "Covar-协方差",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "Cum-累计值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "DevSqrdArray-数组的偏差均方和",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "DevSqrd-偏差均方和",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "ExtremesArray-一维数组的极值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "Extremes-极值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "FactorPure-因子提纯",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "FactorStandard-因子标准化",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "FftFliter-傅里叶滤波的预测",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "Fisher-Fisher变换",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "FisherInv-反Fisher变换",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "HarmonicMeanArray-数组的调和平均数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "HarmonicMean-调和平均数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "HighestArray-一维数组的最大值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "HighestBarFC-快速计算最高值出现的Bar",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "HighestBar-最高值出现的Bar",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "HighestFC-快速计算最高值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "Highest-最高值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "KurtosisArray-数组的峰度系数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "Kurtosis-峰度系数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "LinearRegAngleArray-数组的线性回归的角度",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "LinearRegAngle-线性回归的角度",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "LinearRegArray-数组的线性回归",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "LinearRegForecastArray-数组的线性回归的预测值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "LinearRegInterceptArray-数组的线性回归的截距",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "LinearRegSlopeArray-数组的线性回归的斜率",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "LinearRegSlope-线性回归的斜率",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "LinearRegValue-线性回归值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "LinearReg-线性回归",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "LowestArray-一维数组的最小值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "LowestBarFC-快速计算最低值出现的Bar",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "LowestBar-最低值出现的Bar",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "LowestFC-快速计算最低值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "Lowest-最低值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "MedianArray-数组的中位数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "Median-中位数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "MLRS-多元线性回归求解",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "ModeArray-数组的众数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "Mode-众数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "Na1Max-一维数组的最大值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "Na1Min-一维数组的最小值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "Na1Norm2-数组的欧几里得范数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "Na2Sum-二维数组的元素求和",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "NormalCumDensityArray-数组的正态分布累计概率密度",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "NormalCumDensity-指定数据的正态分布累计概率密度",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "NormalDensityArray-数组的正态分布概率密度",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "NormalDensity-指定数据的正态分布概率密度",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "NormalSCDensity-指定数据的正态分布累计概率密度",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "Normsdist-正态分布概率分布函数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "Normsinv-正态分布概率分布函数的反函数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "Norms-正态分布概率密度函数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "NthCon-第N个满足条件的Bar距当前的Bar数目",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "NthExtremesArray-一维数组的第N个极值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "NthExtremes-第N个极值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "NthHigherArray-一维数组的第N大的值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "NthHigherBar-第N高出现的Bar",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "NthHigher-第N高的值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "NthLowerArray-一维数组的第N小的值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "NthLowerBar-第N低出现的Bar",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "NthLower-第N低的值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "QuadProg-二次规划问题最优解",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "SkewnessArray-数组的偏度系数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "Skewness-偏度系数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "StandardDevArray-数组的标准差",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "StandardDev-标准差",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "SummationArray-一维数组的和",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "SummationFC-快速求和",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "Summation-求和",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "VariancePSArray-数组的估计方差",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "数学统计",
+        "函数名": "VariancePS-估计方差",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "逻辑函数",
+        "函数名": "BitAnd-位与",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "逻辑函数",
+        "函数名": "BitHas-位判断",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "逻辑函数",
+        "函数名": "BitOr-位或",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "逻辑函数",
+        "函数名": "Compare-数值比较",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "逻辑函数",
+        "函数名": "IIFString-真假值判断，输出字符串",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "逻辑函数",
+        "函数名": "IIF-真假值判断，输出数值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "逻辑函数",
+        "函数名": "Sign-数值符号",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "Monday-星期一的值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "Tuesday-星期二的值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "Wednesday-星期三的值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "Thursday-星期四的值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "Friday-星期五的值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "Saturday-星期六的值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "Sunday-星期日的值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "CurrentDate-获取交易开拓者平台的当前日期",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "CurrentTime-获取交易开拓者平台(操作系统)的当前时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "DateAdd-返回已添加指定天数的日期",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "DateDiff-返回两个日期之间的天数间隔",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "DateTime2Utc-时区日期时间转UTC时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "DateTimeAdd-在指定日期上累加指定秒数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "DateTimeDiffV2-返回两个日期时间的间隔毫秒数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "DateTimeDiff-返回两个时间之间的间隔秒数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "DateTimeToString-将日期时间转化为字符串",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "DateToString-将日期转化为字符串",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "DayFromDateTime-获取输入日期时间的日信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "HourFromDateTime-获取输入日期时间的小时信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "Local2UTC-本地时区时间转成UTC时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "MakeDate-将参数生成日期值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "MakeDateTime-将参数生成日期时间值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "MakeTime-将参数生成时间值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "MilliSecondFromDateTime-获取输入日期时间的毫秒信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "MinuteFromDateTime-获取输入日期时间的分钟信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "MonthFromDateTime-获取输入日期时间的月信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "SecondFromDateTime-获取输入日期时间的秒信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "StringToDateTime-将字符串转化为日期时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "StringToDate-将字符串转化为日期",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "StringToTime-将字符串转化为时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "SystemDateTime-获取交易开拓者平台的当前日期时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "SystemTimestamp-获取平台当前时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "TimeDiffV2-返回两个时间的间隔毫秒数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "TimeDiff-返回两个时间之间的间隔秒数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "TimeToString-将时间转化为字符串",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "TimeZone2String-时区枚举转字符串",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "Utc2DateTime-UTC时间转时区日期时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "UTC2Local-UTC时间转成本地时区时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "WeekdayFromDateTime-获取输入日期时间的周信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "自然时间",
+        "函数名": "YearFromDateTime-获取输入日期时间的年信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "交易时间",
+        "函数名": "GetSessionCount-获取交易时间段的个数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "交易时间",
+        "函数名": "GetSessionDateTime-获取指定日期时间的交易日期时间段",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "交易时间",
+        "函数名": "GetSessionEndTime-获取指定交易时间段的结束时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "交易时间",
+        "函数名": "GetSessionStartTime-获取指定交易时间段的起始时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "交易时间",
+        "函数名": "RealBeginDateTime-当前策略应用商品在当前Bar的真实开始日期时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "交易时间",
+        "函数名": "IsTradingDay-判断指定日期是否是交易日",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "交易时间",
+        "函数名": "RealEndDateTime-当前策略应用商品在当前Bar的真实结束日期时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "交易时间",
+        "函数名": "IsTradingTime-判断指定日期时间是否为交易时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "交易时间",
+        "函数名": "GetOffsetTradingDay-获取合约在指定时间段的所有交易日数量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "交易时间",
+        "函数名": "NextTradingDateTime-获取某个时间最近的交易时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "交易时间",
+        "函数名": "NextTradingDay-获取下一个交易日",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "交易时间",
+        "函数名": "PreTradingDay-获取上一个交易日",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "交易时间",
+        "函数名": "TradingCloseDateTime-获取输入时间的交易收盘时间点",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "交易时间",
+        "函数名": "TradingDate-根据当前bar时间或指定时间，获取交易日",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "交易时间",
+        "函数名": "TradingOpenDateTime-获取当前bar或指定合约输入时间的交易开盘时间点",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "交易时间",
+        "函数名": "TradingTotalSecs-获取两时间点之间的可交易秒数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_2.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_AskPrice-当前策略应用商品的最新卖盘价格",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_AskPriceFlag-当前策略应用商品的卖盘价格变化标志",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_AskVol-当前策略应用商品的最新卖盘量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_AvgPrice-当前策略应用商品的实时均价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_BidPrice-当前策略应用商品的最新买盘价格",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_BidPriceFlag-当前策略应用商品的买盘价格变化标志",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_BidVol-当前策略应用商品的最新买盘量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_Close-当前策略应用商品的当日收盘价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_High-当前策略应用商品的当日最高价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_HisHigh-当前策略应用商品的历史最高价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_HisLow-当前策略应用商品的历史最低价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_InsideVol-当前策略应用商品的内盘",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_Last-当前策略应用商品的最新价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_LastDate-当前策略应用商品的最新成交日期",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_LastFlag-当前策略应用商品的最新价变化标志",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_LastTime-当前策略应用商品的最新成交时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_LastVol-当前策略应用商品的现手",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_Low-当前策略应用商品的当日最低价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_LowerLimit-当前策略应用商品的当日跌停板价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_Open-当前策略应用商品的当日开盘价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_OpenInt-当前策略应用商品的持仓量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_OpenIntFlag-当前策略应用商品的持仓量变化标志",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_Oscillation-当前策略应用商品的振幅",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_OutsideVol-当前策略应用商品的外盘",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_PreOpenInt-当前策略应用商品的昨日持仓量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_PreSettlePrice-当前策略应用商品的昨日结算价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_PriceChg-当前策略应用商品的当日涨跌",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_PriceChgRatio-当前策略应用商品的当日涨跌幅",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_Status-当前策略应用商品的行情状态标识",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_TickChg-当前策略应用商品的最新笔升跌",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_TodayEntryVol-当前策略应用商品的当日开仓量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_TodayExitVol-当前策略应用商品的当日平仓量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_TotalVol-当前策略应用商品的当日成交量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_TurnOver-当前策略应用商品的成交金额",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "行情函数",
+        "函数名": "Q_UpperLimit-当前策略应用商品的当日涨停板价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户信息",
+        "函数名": "A_AccountCount-返回当前账号总数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户信息",
+        "函数名": "A_GetAccountIDs-获取所有的交易账号",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户信息",
+        "函数名": "A_AccountDataExist-当前帐户函数是否有效",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户信息",
+        "函数名": "A_AccountID-返回当前策略应用的交易帐户ID",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户信息",
+        "函数名": "A_AccountIDs-返回当前策略应用的所有交易账户ID",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户信息",
+        "函数名": "A_AccountIndex-获取账户下标索引",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户信息",
+        "函数名": "A_BrokerID-返回当前策略应用的交易帐户对应的交易商ID",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户信息",
+        "函数名": "A_BrokerIDs-返回当前策略应用的所有交易账户的交易商ID",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户信息",
+        "函数名": "A_BrokerName-返回当前交易账户的交易商名称",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户信息",
+        "函数名": "A_CanMarginBuySize-最大可融资买入数量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户信息",
+        "函数名": "A_CanShortSellSize-最大可融券卖出数量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户信息",
+        "函数名": "AccountDataExist-当前帐户函数是否有效",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户资金信息",
+        "函数名": "A_CurrentEquity-返回指定交易帐户的动态权益",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户资金信息",
+        "函数名": "A_LastEquity-返回指定交易帐户的最新权益",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户资金信息",
+        "函数名": "A_FreeMargin-返回指定交易帐户的可用资金",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户资金信息",
+        "函数名": "A_GetAccount-获取指定账户资金信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户资金信息",
+        "函数名": "A_PreviousEquity-返回指定交易帐户的昨日结存",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户资金信息",
+        "函数名": "A_ProfitLoss-返回指定交易帐户按结算价计算的浮动盈亏",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户资金信息",
+        "函数名": "A_ProfitLossO-返回指定交易帐户按成本价计算的浮动盈亏",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户资金信息",
+        "函数名": "A_TodayDeposit-返回指定交易帐户的当日入金",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户资金信息",
+        "函数名": "A_TodayDrawing-返回指定交易帐户的当日出金",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户资金信息",
+        "函数名": "A_TotalFreeze-返回指定交易帐户的冻结资金",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户资金信息",
+        "函数名": "A_TotalMargin-返回指定交易帐户的保证金",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户持仓信息",
+        "函数名": "A_BuyAvgPrice-返回指定帐户下当前商品按结算价计算的买入持仓均价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户持仓信息",
+        "函数名": "A_BuyAvgPriceO-返回指定帐户下当前商品按成本价计算的买入持仓均价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户持仓信息",
+        "函数名": "A_BuyPosition-返回指定帐户下当前商品的买入持仓",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户持仓信息",
+        "函数名": "A_BuyProfitLoss-返回指定帐户下当前商品按结算价计算的买入持仓盈亏",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户持仓信息",
+        "函数名": "A_BuyProfitLossO-返回指定帐户下当前商品按成本价计算的买入持仓盈亏",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户持仓信息",
+        "函数名": "A_GetPosition-获取当前商品的仓位",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户持仓信息",
+        "函数名": "A_GetPosition-获取指定合约的仓位",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户持仓信息",
+        "函数名": "A_GetPositionSymbols-获取账户持仓的合约代码",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户持仓信息",
+        "函数名": "A_GetSignalNetPosition-查询账户信号净仓",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户持仓信息",
+        "函数名": "A_PositionProfitLoss-返回指定帐户下当前商品按结算价计算的持仓盈亏",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户持仓信息",
+        "函数名": "A_PositionProfitLossO-返回指定帐户下当前商品按成本价计算的持仓盈亏",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户持仓信息",
+        "函数名": "A_SellAvgPrice-返回指定帐户下当前商品按结算价计算的卖出持仓均价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户持仓信息",
+        "函数名": "A_SellAvgPriceO-返回指定帐户下当前商品按成本价计算的卖出持仓均价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户持仓信息",
+        "函数名": "A_SellPosition-返回指定帐户下当前商品的卖出持仓",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户持仓信息",
+        "函数名": "A_SellProfitLoss-返回指定帐户下当前商品按结算价计算的卖出持仓盈亏",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户持仓信息",
+        "函数名": "A_SellProfitLossO-返回指定帐户下当前商品按成本价计算的卖出持仓盈亏",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户持仓信息",
+        "函数名": "A_TodayBuyPosition-返回指定帐户下当前商品的当日买入持仓",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户持仓信息",
+        "函数名": "A_TodaySellPosition-返回指定帐户下当前商品的当日卖出持仓",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户持仓信息",
+        "函数名": "A_TotalAvgPrice-返回指定帐户下当前商品按结算价计算的持仓均价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户持仓信息",
+        "函数名": "A_TotalAvgPriceO-返回指定帐户下当前商品按成本价计算的持仓均价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户持仓信息",
+        "函数名": "A_TotalPosition-返回指定帐户下当前商品的总持仓",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_GetLastOpenOrderIndex-返回指定帐户下当前商品的最后一个未成交委托单索引",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_GetLastOrderIndex-返回指定帐户下当前商品的最后一个当日委托单索引",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_GetOpenOrderCount-返回指定帐户下当前商品的未成交委托单数量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_GetOrder-获取报单的详细信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_GetOrderCount-返回指定帐户下当前商品的当日委托单数量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_GetOrderCreateSource-获取报单源名称",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_GetOrderIDs-获取报单数组",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_GetOrderIDs-获取指定合约报单数组",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_GetPreOrders-获取指定合约指定操作源上的历史委托",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_GetUnFillOrderIDs-获取未完成的报单数组",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_GetUnFillOrderIDs-获取指定合约未完成的报单数组",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_OpenOrderBuyOrSell-返回指定帐户下当前商品的某个未成交委托单的买卖类型",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_OpenOrderComment-根据索引取委托注释，只针对未成交单的索引",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_OpenOrderContractNo-返回指定帐户下当前商品的某个未成交的委托单的合同号",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_OpenOrderEntryOrExit-返回指定帐户下当前商品的某个未成交委托单的开平仓状态",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_OpenOrderFilledLot-返回指定帐户下当前商品的某个未成交委托单的成交数量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_OpenOrderFilledPrice-返回指定帐户下当前商品的某个未成交委托单的成交价格",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_OpenOrderLot-返回指定帐户下当前商品的某个未成交委托单的委托数量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_OpenOrderPrice-返回指定帐户下当前商品的某个未成交委托单的委托价格",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_OpenOrderStatus-返回指定帐户下当前商品的某个未成交委托单的状态",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_OpenOrderTime-返回指定帐户下当前商品的某个未成交委托单的委托时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_OrderBuyOrSell-返回指定帐户下当前商品的某个委托单的买卖类型",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_OrderCanceledLot-返回指定帐户下当前商品的某个委托单的撤单数量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_OrderComment-根据索引取委托注释，只针对当日委托单的索引",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_OrderContractNo-返回指定帐户下当前商品的某个委托单的合同号",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_OrderEntryOrExit-返回指定帐户下当前商品的某个委托单的开平仓状态",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_OrderFilledLot-返回指定帐户下当前商品的某个委托单的成交数量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_OrderFilledPrice-返回指定帐户下当前商品的某个委托单的成交价格",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_OrderLot-返回指定帐户下当前商品的某个委托单的委托数量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_OrderPrice-返回指定帐户下当前商品的某个委托单的委托价格",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_OrderStatus-返回指定帐户下当前商品的某个委托单的状态",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户委托信息",
+        "函数名": "A_OrderTime-返回指定帐户下当前商品的某个委托单的委托时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户成交信息",
+        "函数名": "A_GetFillCount-返回指定报单的成交笔数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户成交信息",
+        "函数名": "A_GetFill-获取指定报单的成交信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户成交信息",
+        "函数名": "A_GetPreFills-获取指定合约指定操作源上的历史成交",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_3.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_BindTradeAccount-绑定交易账号",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_Buy-指定账户指定合约开多头单",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_BuyToCover-指定账户指定合约平空头单",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_DeleteAccountOrder-撤掉账户下当前商品的所有未成交单",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_DeleteAccountOrder-撤掉账户下指定合约的所有未成交单",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_DeleteOrder-账户撤单操作",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_DeleteOrderEx-撤指定报单索引的委托单",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_DeleteOrderV2-撤指定报单索引的委托单",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_GetAccountRate-获取账户倍数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_GetCommissionRate-获取账户对应合约的手续费率",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_GetMarginRate-获取账户对应合约的保证金率",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_Sell-指定账户指定合约平多头单",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_SellShort-指定账户指定合约开空头单",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_SendOrderEx-当前合约账户下单操作",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_SendOrderEx-账户下单操作",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_SendOrderEx-指定合约账户下单操作",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_SendOrder-账户下单操作",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_SendOrderV2-账户下单操作",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_SetAccountRate-设置账户倍数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_SetBlackList-设置账户报单黑名单",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_SetPendingNetVolume-设置账户未发送的净委托量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_SetSubscribeTradeRange-设置交易订阅范围",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_SubscribeTradeByCreateId-根据操作源ID订阅委托",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_SubscribeTradeByCreateSource-根据操作源订阅委托",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "账户交易",
+        "函数名": "A_UnbindTradeAccount-解绑交易帐号",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源状态",
+        "函数名": "BarCount-当前策略应用商品数据的Bar总数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源状态",
+        "函数名": "BarExistStatus-当前策略应用商品当前Bar的运行状态值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源状态",
+        "函数名": "BarExist-判断当前数据源是否对齐",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源状态",
+        "函数名": "BarStatus-当前策略应用商品当前Bar的状态值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源状态",
+        "函数名": "CurrentBar-当前策略应用商品在当前Bar的索引值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源状态",
+        "函数名": "DataCount-返回当前策略应用图表数据源的总数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源状态",
+        "函数名": "DataSourceSize-获取数据源的个数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源状态",
+        "函数名": "DateTimeToBarIndex-获取指定时间所对应的当前公式应用商品bar索引值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源状态",
+        "函数名": "GetRunningTradeStrategySize-获取运行中的交易公式数量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源状态",
+        "函数名": "HistoryDataExist-当前数据源是否有效",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源状态",
+        "函数名": "IsAddData-判断行情数据是否是追补的数据",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源状态",
+        "函数名": "IsStartBar-是否为启动时间点",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源状态",
+        "函数名": "QuoteDataExist-当前策略应用商品的行情数据是否有效",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源状态",
+        "函数名": "QuoteStatus-返回当前策略应用的行情状态值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源状态",
+        "函数名": "SignalSize-获得交易信号个数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源时间",
+        "函数名": "BarsSinceToday-求当天的第一个数据到当前的Bar数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源时间",
+        "函数名": "D-当前策略应用商品在当前Bar的日期",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源时间",
+        "函数名": "Date-当前策略应用商品在当前Bar的日期",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源时间",
+        "函数名": "Day-获得当前Bar的日信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源时间",
+        "函数名": "DayBarsNumI-一个交易日包含多少根BAR的函数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源时间",
+        "函数名": "EndDate-当前策略应用商品在当前Bar的结束日期",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源时间",
+        "函数名": "EndTime-当前策略应用商品在当前Bar的结束时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源时间",
+        "函数名": "Hour-获得当前Bar的小时信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源时间",
+        "函数名": "MilliSecond-获得当前Bar的毫秒信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源时间",
+        "函数名": "Minute-获得当前Bar的分钟信息 ",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源时间",
+        "函数名": "Month-获得当前Bar的月信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源时间",
+        "函数名": "NextBarDateTime-获取当前bar的下一根bar时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源时间",
+        "函数名": "Second-获得当前Bar的秒信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源时间",
+        "函数名": "T-当前策略应用商品在当前Bar的时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源时间",
+        "函数名": "Time-当前策略应用商品在当前Bar的时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源时间",
+        "函数名": "TradingBeginDatetime-当前策略应用商品在当前Bar的真实开始交易时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源时间",
+        "函数名": "TradingEndDateTime-当前策略应用商品在当前Bar的真实结束交易时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源时间",
+        "函数名": "TrueDate-求指定bar的真正交易日期",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源时间",
+        "函数名": "Weekday-获得当前Bar的周信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源时间",
+        "函数名": "Year-获得当前Bar的年信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "C-当前策略应用商品在当前Bar的收盘价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "Close-当前策略应用商品在当前Bar的收盘价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "CloseD-求N天前的收盘价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "DataConvert-跨周期数据转换函数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "GetBar-获取bar数据",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "GetReadyBar-OnReady中获取Bar数据",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "GetReadyTick-OnReady中获取Tick数据",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "GetTick-获取Tick周期数据源的Tick数据",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "GetTick-获取指定合约的最新的Tick数据",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "H-当前策略应用商品在当前Bar的最高价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "High-当前策略应用商品在当前Bar的最高价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "HighD-求N天前的最高价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "L-当前策略应用商品在当前Bar的最低价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "Low-当前策略应用商品在当前Bar的最低价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "LowD-求N天前的最低价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "O-当前策略应用商品在当前Bar的开盘价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "Open-当前策略应用商品在当前Bar的开盘价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "OpenD-求N天前的开盘价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "OpenInt-当前策略应用商品在当前Bar的持仓量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "OpenIntD-求N天前的持仓量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "PushBar-抛数据到公式系统",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "Rollover-当前策略应用商品在当前Bar的除权系数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "TurnOver-当前策略应用商品在当前Bar的成交金额",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "V-当前策略应用商品在当前Bar的成交量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "Vol-当前策略应用商品在当前Bar的成交量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源数据",
+        "函数名": "VolD-求N天前的成交量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "交易函数",
+        "函数名": "Buy-产生一个多头建仓操作",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "交易函数",
+        "函数名": "BuyToCover-产生一个空头平仓操作",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "交易函数",
+        "函数名": "Sell-产生一个多头平仓操作",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "交易函数",
+        "函数名": "SellShort-产生一个空头建仓操作",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "AvgBarsEvenTrade-获得保本交易的平均持仓Bar数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "AvgBarsLosTrade-获得亏损交易的平均持仓Bar数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "AvgBarsWinTrade-获得盈利交易的平均持仓Bar数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "AvgEntryPrice-获得当前持仓的平均建仓价格",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "BarsSinceEntry-获得当前持仓的第一个建仓位置到当前位置的Bar计数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "BarsSinceExit-获得最近平仓位置到当前位置的Bar计数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "BarsSinceLastEntry-获得当前持仓的最后一个建仓位置到当前位置的Bar计数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "ContractProfit-获得当前持仓位置的每手浮动盈亏",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "CurrentContracts-当前净持仓合约数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "CurrentEntries-获得当前持仓的建仓次数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "EntryDate-获得当前持仓的第一个建仓位置的日期",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "EntryPrice-获得当前持仓的第一个建仓价格",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "EntryTime-获得当前持仓的第一个建仓位置的时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "ExitDate-获得最近平仓位置Bar日期",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "ExitPrice-获得最近平仓位置的平仓价格",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "ExitSize-获得平仓次数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "ExitTime-获得最近平仓位置Bar时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "FirstSignalIndex-获取当前策略应用商品第一个信号的Bar索引",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "getBarSignals-获取当前策略应用商品Bar上的信号",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "GrossLoss-获得累计的总亏损",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "GrossProfit-获得累计的总利润",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "LargestLosTrade-获得最大单次交易亏损数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "LargestWinTrade-获得最大单次交易盈利数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "LastEntryDate-获得当前持仓的最后一个建仓位置的日期",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "LastEntryIndex-获取当前策略应用商品最后一个开仓信号的Bar索引",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "LastEntryPrice-获得当前持仓的最后一个建仓价格",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "LastEntryTime-获得当前持仓的最后一个建仓位置的时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "LastExitIndex-获取当前策略应用商品最后一个平仓信号的Bar索引",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "LastSignalIndex-获取当前策略应用商品最后一个信号的Bar索引",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "longAvgEntryPrice-多头建仓平均价格",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "longContractProfit-多头每张合约持仓盈亏",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "longCurrentContracts-多头持仓合约数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "longEntries-多头建仓次数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "longEntryDate-多头持仓的第一次建仓日期",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "longEntryPrice-多头持仓的第一次建仓价格",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "longEntryTime-多头持仓的第一次建仓时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "longLastEntryDate-多头持仓的最后建仓日期",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "longLastEntryPrice-多头持仓的最后建仓价格",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "longLastEntryTime-多头持仓的最后建仓时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "longPositionProfit-多头持仓盈亏",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "MarketPosition-获得当前净持仓状态",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "MaxConsecLosers-获得最大连续亏损交易手数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "MaxConsecWinners-获得最大连续盈利交易手数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "MaxContracts-获得当前持仓的最大持仓合约数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "MaxContractsHeld-获得最大的持仓合约数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "MaxEntries-获得最大的建仓次数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "MaxPositionLoss-获得当前持仓的最大浮动亏损数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "MaxPositionProfit-获得当前持仓的最大浮动盈利数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "NetProfit-获得已经平仓交易的累计的净利润",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "NumEvenTrades-获得保本交易的总手数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "NumLosTrades-获得亏损交易的总手数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "NumWinTrades-获得盈利交易的总手数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "PercentProfit-获得盈利的成功率",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "Portfolio_CurrentCapital-获得按当前Bar开盘价计算的可用资金",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "Portfolio_CurrentEntries-获得投资组合的当前建仓次数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "Portfolio_CurrentEquity-获得投资组合的动态权益",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "Portfolio_GrossLoss-获得投资组合的毛损",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "Portfolio_GrossProfit-获得投资组合的毛利",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "Portfolio_MaxDrawDownRatio-获得投资组合的最大资产回撤比率",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "Portfolio_MaxDrawDown-获得投资组合的最大资产回撤",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "Portfolio_NetProfit-获得投资组合的已经平仓交易的净利润",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "Portfolio_NumLossTrades-获得投资组合的交易亏损手数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "Portfolio_NumWinTrades-获得投资组合的交易盈利手数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "Portfolio_PercentProfit-获得投资组合的交易成功率",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "Portfolio_PositionProfit-获得投资组合的浮动盈亏",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "Portfolio_TotalProfit-获得投资组合的累计交易盈亏",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "Portfolio_TotalTrades-获得投资组合的总交易手数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "Portfolio_UsedMargin-获得当前的持仓保证金",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "PositionProfit-获得当前持仓位置的浮动盈亏",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "shortAvgEntryPrice-空头建仓平均价格",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "shortContractProfit-空头每张合约持仓盈亏",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "shortCurrentContracts-空头持仓合约数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "shortEntries-空头建仓次数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "shortEntryDate-空头持仓的第一次建仓日期",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "shortEntryPrice-空头持仓的第一次建仓价格",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "shortEntryTime-空头持仓的第一次建仓时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "shortLastEntryDate-空头持仓的最后建仓日期",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "shortLastEntryPrice-空头持仓的最后建仓价格",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "shortLastEntryTime-空头持仓的最后建仓时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "shortPositionProfit-空头持仓盈亏",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "TotalBarsEvenTrades-获得保本交易的总持仓Bar数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "TotalBarsLosTrades-获得亏损交易的总持仓Bar数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "TotalBarsWinTrades-获得盈利交易的总持仓Bar数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源策略函数",
+        "函数名": "TotalTrades-获得交易的总手数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_4.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "AdaptiveMovAvg-求卡夫曼自适应移动平均",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "AverageD-求N天以来的价格平均值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "AvgPrice-求平均价格",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "AvgTrueRange-求平均真实范围",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "CountIf-获取最近N周期条件满足的计数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "CrossOver-求是否上穿",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "CrossUnder-求是否下穿",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "DEMA-求双指数平均",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "Detrend-求趋势平滑",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "MidPoint-求中点",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "Momentum-求动量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "ParabolicSAR-求抛物线转向",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "PercentChange-求涨跌幅",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "PercentR-求威廉指标",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "Pivot-求转折",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "PriceOscillator-求振荡",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "RateOfChange-求变动率",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "SAverage-求平滑平均",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "SMA-求移动平均",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "SwingHighBar-求波峰点出现的Bar",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "SwingHigh-求波峰点",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "SwingLowBar-求波谷点出现的Bar",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "SwingLow-求波谷点",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "TrueHigh-求真实高点",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "TrueLow-求真实低点",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "TrueRange-求真实范围",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "WAverage-求权重平均",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源统计计算",
+        "函数名": "XAverage-求指数平均",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源设置",
+        "函数名": "AddDataFlag-设置数据源标志，仅支持在OnInit中使用",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源设置",
+        "函数名": "IgnoreLayerAlign-忽略图层对齐规则",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源设置",
+        "函数名": "BarInterval-当前策略应用商品数据的周期数值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源设置",
+        "函数名": "BarType-当前策略应用商品数据的周期类型值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源设置",
+        "函数名": "BeginDateTime-获取数据源设置的开始时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源设置",
+        "函数名": "ClearDataFlag-清除数据源标志，仅支持在OnInit中使用",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源设置",
+        "函数名": "DataFlag-获取数据源标志",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源设置",
+        "函数名": "EndDateTime-获取数据源设置的结束时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源设置",
+        "函数名": "Frequency-获取周期范围",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源设置",
+        "函数名": "HasRollover-当前bar是否发生除权",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "数据源设置",
+        "函数名": "SetDataRange-设置行情范围",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "BaseShares-获取合约最小交易量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "BidAskSize-当前策略应用商品数据的买卖盘个数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "BigPointValue-当前策略应用商品数据的一个整数点的价值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "CanMarketOrder-当前策略应用商品是否支持市价委托",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "CanShortTrade-当前策略应用商品是否支持空头交易",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "CanStopOrder-当前策略应用商品是否支持STOP委托",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "CanTrade-当前策略应用商品是否支持交易",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "Category-当前策略应用商品的大类信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "ContractSize-当前商品的合约大小",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "ContractUnit-当前策略应用商品的每张合约包含的基本单位数量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "CreateProperty-添加合约属性",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "CurrencyName-当前策略应用商品交易的货币名称",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "CurrencySymbol-当前策略应用商品交易的货币符号",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "EffectiveDateTime-当前策略应用商品的生效时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "ExchangeCode-当前策略应用商品的交易所编码",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "ExchangeName-当前策略应用商品的交易所名称",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "ExpiredDateTime-当前策略应用商品的到期时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "GetProperty-获取Bar上的合约属性",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "GetProperty-获取所有合约属性",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "GetProperty-获取指定合约的所有合约属性",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "GetProperty-获取指定时间上的指定合约的合约属性",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "GetSymbolContracts-获取品种合约集合",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "GetSymbolsByCategory-根据商品大类查询所有的合约",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "GetSymbolsByExchange-根据交易所代码查询所有的合约",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "GetSymbols-查询所有的合约",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "GetSymbols-根据品种和大类查询所有的合约",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "MinMove-当前策略应用商品的最小变动量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "OpenDateTime-当前策略应用商品的上市时间",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "PriceScale-当前策略应用商品的计数单位",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "RelativeSymbol-当前策略应用商品的关联代码",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "SymbolId-获取当前策略应用商品的内部唯一编码",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "SymbolName-当前策略应用商品的名称",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "SymbolType-当前策略应用商品的小类信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "Symbol-当前策略应用商品的代码",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "TradingDayLeft-商品截至到期剩余的日期",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "MainSymbol-获取标的主力合约代码",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "SecondMainSymbol-获取标的次主力合约代码",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "ContinuousSymbol-获取标的连续合约代码",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "NearbySymbol-获取标的次连合约代码",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "GetOptSymbolsByCode-根据标的合约获取对应的期权集合",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约属性",
+        "函数名": "GetCCDataSymbols-获取CC数据在当前bar成员",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约选股",
+        "函数名": "GetMarkSymbols-获取选股合约",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约选股",
+        "函数名": "IsAllPickCondition-判断当前Bar是否选中",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约选股",
+        "函数名": "MarkSymbol-根据指定合约选股",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约选股",
+        "函数名": "SetPickConditionDelay-设置选股模式生效延迟Bar，仅支持在OnInit中使用",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约选股",
+        "函数名": "SetPickCondition-选中当前Bar",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "合约选股",
+        "函数名": "IsMarkSymbol-判断合约是否选中",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "策略单元设置",
+        "函数名": "AddTradeFlag-忽略自动",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "策略单元设置",
+        "函数名": "ClearTradeFlag-清除忽略自动",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "策略单元设置",
+        "函数名": "GetGroupName-获取分组名称",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "策略单元设置",
+        "函数名": "GetUnitName-获取单元名称",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "策略单元设置",
+        "函数名": "GetUserID-当前登录的用户ID",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "策略单元设置",
+        "函数名": "GetWorkspaceName-获取工作区名称",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "策略单元设置",
+        "函数名": "IsTradeEnabled-是否开启了自动交易",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "策略单元设置",
+        "函数名": "StrategyModeName-当前运行模式名称",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "策略单元设置",
+        "函数名": "StrategyMode-当前运行模式",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "策略单元设置",
+        "函数名": "TradeFlag-获取忽略自动方向",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "公式设置",
+        "函数名": "AddAllStrategyFlag-设置所有策略的策略标识",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "公式设置",
+        "函数名": "AddStrategyFlag-设置公式标识",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "公式设置",
+        "函数名": "FormulaName-获得当前执行的公式名称",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "公式设置",
+        "函数名": "GetFormulaNames-获取已加载公式的名称",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "公式设置",
+        "函数名": "MaxBarsBack-获得当前策略应用所需的最大回溯Bar数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "公式设置",
+        "函数名": "SetBackBarMaxCount-设置最大回溯bar数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "公式设置",
+        "函数名": "SetBeginBarMaxCount-设置最大起始bar数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "公式设置",
+        "函数名": "SetPremiseFormulas-设置当前公式依赖其他公式信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_5.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "GetCommissionRate-获取手续费率和手续费类型",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "GetConstituentByIndex-获取指数合约的成分",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "GetLayerOrderMapSymbols-获取数据源委托映射合约",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "GetMarginRate-当前策略应用商品的默认保证金比率",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "GetOrderMapRelatedSymbols-获取委托映射合约",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "GetOrderPriceOffset-获取委托偏移值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "GetSlippage-获取滑点",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "InitialMargin-当前策略应用商品的初始保证金",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "MaintenanceMargin-当前策略应用商品的维持保证金",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "MarginRatio-当前策略应用商品的默认保证金比率",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "MaxSingleTradeSize-当前策略应用商品的单笔交易限量",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "Portfolio_InitCapital-获得投资组合的初始资金",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "SetCommissionRate-设置手续费率",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "SetConsecEntries-设置最大连续建仓次数，仅支持在OnInit中使用",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "SetInitCapital-设置初始资金，仅支持在OnInit中使用",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "SetMarginRate-设置保证金率",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "SetMaxTrades-设置最大交易次数，仅支持在OnInit中使用",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "SetOrderMap2AppointedSymbol-委托映射到指定合约",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "SetOrderMap2MainSymbol-委托映射到主力",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "SetOrderMap2SecondMainSymbol-委托映射到次主力",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "SetOrderPriceOffset-按叫买叫卖价委托偏移",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "SetQuoteBackBarSize-设置最大的可供回溯访问的行情大小",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "SetSlippage-设置滑点",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "SetSwapPosVolType-设置自动换仓量类型，仅支持在OnInit中使用",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "SetTradeMode-设置交易模式，仅支持在OnInit中使用",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "交易设置",
+        "函数名": "SetTradeSide-设置交易方向，仅支持在OnInit中使用",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "基础事件",
+        "函数名": "OnExit-退出事件",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "基础事件",
+        "函数名": "OnInit-初始化事件",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "基础事件",
+        "函数名": "OnReady-在所有的数据源准备完成后调用，应用在数据源的设置等操作",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "行情数据事件",
+        "函数名": "SubscribeBarCounts-根据样本量订阅bar行情",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "行情数据事件",
+        "函数名": "SetBasePeriod-设置基础周期，历史数据以基础周期频率执行",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "行情数据事件",
+        "函数名": "OnBar-Bar数据更新驱动",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "行情数据事件",
+        "函数名": "OnBarClose-在下一根bar开始前重新执行当前bar最后一次",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "行情数据事件",
+        "函数名": "OnBarOpen-在新bar的第一次执行之前驱动",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "行情数据事件",
+        "函数名": "SetTriggerBarClose-设置触发OnBarClose的时间点",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "行情数据事件",
+        "函数名": "SubscribeBar-订阅bar行情",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "行情数据事件",
+        "函数名": "SubscribeTick-订阅tick行情",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "行情数据事件",
+        "函数名": "UnsubscribeBar-取消订阅bar行情",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "行情数据事件",
+        "函数名": "UnsubscribeTick-取消订阅tick行情",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "信号事件",
+        "函数名": "OnSignal-代理信号事件",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "账户事件",
+        "函数名": "OnAccountStatus-账户状态更新驱动",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "账户事件",
+        "函数名": "OnAccount-账户资金更新驱动",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "账户事件",
+        "函数名": "OnFill-成交更新驱动",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "账户事件",
+        "函数名": "OnOrder-委托更新驱动",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "账户事件",
+        "函数名": "OnPosition-持仓更新驱动",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "账户事件",
+        "函数名": "OnStrategyPosition-策略当日委托仓更新事件函数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "定时器事件",
+        "函数名": "CreateTimer-创建Timer",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "定时器事件",
+        "函数名": "OnTimer-定时器更新驱动",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "定时器事件",
+        "函数名": "StopTimer-停止定时器",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_6.json"
+    },
+    {
+        "分类": "通用事件",
+        "函数名": "OnEvent-通用事件",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "通用事件",
+        "函数名": "PublishEvent-发布事件",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "通用事件",
+        "函数名": "SubscribeEvent-根据事件名称订阅事件",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "通用事件",
+        "函数名": "UnsubscribeEvent-根据事件名称退订事件",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "策略单元控制",
+        "函数名": "ReRun-重新运行公式",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "策略单元控制",
+        "函数名": "ReStart-重新运行交易单元",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "策略单元控制",
+        "函数名": "Stop-停止交易单元",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "BjerkStensCall-计算美式期权的理论价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "BlackModel-获取期货期权的理论价格",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "BlackScholes-获取股票期权的理论价格",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "Delta-获取期权的Delta值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "Gamma-获取期权的Gamma值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "ImpliedVolatility-获取股票期权的隐含波动率",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "Intrinsic-获取期权的内在价值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "Option_Binomialtree-期权的二叉树定价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "Option_Bsprice-期权的BS定价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "Option_Delta-期权的希腊值之DELTA",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "Option_Gamma-期权的希腊值之GAMMA",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "Option_ImVolatility-推算期权的隐含波动率",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "Option_Rho-期权的希腊值之RHO",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "Option_Theta-期权的希腊值之THETA",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "Option_Vega-期权的希腊值之VEGA",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "OptionPrice-获取期权的理论价格",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "OptionsComplex-计算期权的理论价格和希腊字母值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "OptionStyle-返回期权的行权方式",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "OptionType-返回期权的类型",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "Rho-获取期权的Rho值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "StrikePrice-返回期权的行权价",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "Theta-获取期权的Theta值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "Vega-获取期权的Vega值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "期权函数",
+        "函数名": "Volatility-历史波动率",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "自定义优化目录输出",
+        "函数名": "Print2Optimize-添加优化目标的名称和值 ",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "图表输入输出",
+        "函数名": "PlotString-在当前Bar输出一个字符串",
+        "说明摘要": "PlotString-在当前Bar输出一个字符串",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "图表输入输出",
+        "函数名": "Commentary-在当前Bar添加一行注释信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "图表输入输出",
+        "函数名": "GetPlotBoolValue-获取当前策略应用商品当前bar上的布尔型指标值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "图表输入输出",
+        "函数名": "GetPlotIntegerValue-获取当前策略应用商品当前bar上的整型指标值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "图表输入输出",
+        "函数名": "GetPlotNumericValue-获取当前策略应用商品当前bar上的数值型指标值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "图表输入输出",
+        "函数名": "GetPlotStringValue-获取当前策略应用商品当前bar上的字符型指标值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "图表输入输出",
+        "函数名": "PlotAuto-PlotBool函数的扩展函数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "图表输入输出",
+        "函数名": "PlotAuto-PlotNumeric函数的扩展函数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "图表输入输出",
+        "函数名": "PlotAuto-PlotString函数的扩展函数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "图表输入输出",
+        "函数名": "PlotBool-在当前Bar输出一个布尔值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "图表输入输出",
+        "函数名": "PlotKline-在当前Bar输出一个K线",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "图表输入输出",
+        "函数名": "PlotNumeric-在当前Bar输出一个数值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "图表输入输出",
+        "函数名": "Unplot-删除曾经输出的值",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "控制台输出",
+        "函数名": "Print-在超级图表控制台中输出当前Bar的一行注释信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "控制台输出",
+        "函数名": "PrintClear-清空控制台输出信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "控制台输出",
+        "函数名": "Print2Quote-输出到量化看盘",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "控制台输出",
+        "函数名": "Print2Quote-批量输出到量化看盘",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_7.json"
+    },
+    {
+        "分类": "文件输入输出",
+        "函数名": "FileAppend-在指定文件中追加一行字符串",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "文件输入输出",
+        "函数名": "GetPlotNames-获取指定策略输出指标关键字结合",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "文件输入输出",
+        "函数名": "GetPlotOptions-获取指定策略下指定指标的设置属性信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "文件输入输出",
+        "函数名": "IsHostAddress-判断是否当前使用的IP地址",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "文件输入输出",
+        "函数名": "IsHostMacAddress-判断是否当前使用的Mac地址",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "文件输入输出",
+        "函数名": "FileDelete-删除指定文件",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "文件输入输出",
+        "函数名": "FindAllFiles-获取文件夹及子文件夹所有文件名称",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "文件输入输出",
+        "函数名": "GetTBProfileString-读取公式信息文件指定块中的键名对应的字符串",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "文件输入输出",
+        "函数名": "GetTBProfileStringFileKeys-获取本地数据中指定块名下所有键名集合",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "文件输入输出",
+        "函数名": "GetTBProfileStringFileSections-获取本地数据库中所有的块名集合",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "文件输入输出",
+        "函数名": "GetTBProfileString2File-读取指定文件指定块中的键名对应的字符串",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "文件输入输出",
+        "函数名": "PlayWavSound-播放指定路径的Wav声音文件",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "文件输入输出",
+        "函数名": "ReadCSVFile-读取指定的csv文件",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "文件输入输出",
+        "函数名": "SetTBProfileString2File-把给定的键名及其值写入到指定文件的相应块中",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "文件输入输出",
+        "函数名": "SetTBProfileString-把给定的键名及其值写入到公式信息文件的相应块中",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "K线操作",
+        "函数名": "setPlotOption-对Plot画图属性设置",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "K线操作",
+        "函数名": "HideKline-隐藏当前数据源K线，保留指标画线",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "K线操作",
+        "函数名": "Hide-隐藏当前数据源k线和指标画线",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "K线操作",
+        "函数名": "SetKlineCrossCells-设置合并k线单元格信息",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "K线操作",
+        "函数名": "SetKlineLayout-设置k线布局位置",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "K线操作",
+        "函数名": "ShowKline-显示当前数据源k线",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "K线操作",
+        "函数名": "Show-显示当前数据源k线和指标画线",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "板块函数",
+        "函数名": "GetIndustryBySymbol-指定合约名称和直接父级板块代码获取合约所处的板块名称",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "板块函数",
+        "函数名": "GetIndustryIdBySymbol-指定合约名称和直接父级板块代码获取合约板块代码",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "板块函数",
+        "函数名": "GetSymbolByIndustryId-获取指定板块下所有合约",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "板块函数",
+        "函数名": "IndustryName-获取板块名称",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "报警函数",
+        "函数名": "AlertEnabled-返回当前公式应用的报警设置",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "报警函数",
+        "函数名": "Alert-产生一个报警动作",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "报警函数",
+        "函数名": "PushStatusMsg-发送状态消息到界面",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Buy&Sell_Status-买卖状态",
+        "说明摘要": "Enum_Buy&Sell_Status-买卖状态",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Category-商品大类",
+        "说明摘要": "Enum_Category-商品大类",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_CO_Currency-币种标志",
+        "说明摘要": "Enum_CO_Currency-币种标志",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Color-颜色",
+        "说明摘要": "Enum_Color-颜色",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Compare-比较方法",
+        "说明摘要": "Enum_Compare-比较方法",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Data-数据源标志",
+        "说明摘要": "Enum_Data-数据源标志",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_DicData-基础数据申请来源标识",
+        "说明摘要": "Enum_DicData-基础数据申请来源标识",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_DicFlag-基础数据回溯方式类型",
+        "说明摘要": "Enum_DicFlag-基础数据回溯方式类型",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_DicType-基础数据类型",
+        "说明摘要": "Enum_DicType-基础数据类型",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Entry&Exit_Status-开平仓状态",
+        "说明摘要": "Enum_Entry&Exit_Status-开平仓状态",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Error-系统错误",
+        "说明摘要": "Enum_Error-系统错误",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_HedgeType-投机套保",
+        "说明摘要": "Enum_HedgeType-投机套保",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Invalid-无效值常量",
+        "说明摘要": "Enum_Invalid-无效值常量",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Mode_Strategy-运行模式",
+        "说明摘要": "Enum_Mode_Strategy-运行模式",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Offset-偏移方式",
+        "说明摘要": "Enum_Offset-偏移方式",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Option-期权类型",
+        "说明摘要": "Enum_Option-期权类型",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Option-期权行权方式",
+        "说明摘要": "Enum_Option-期权行权方式",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Pix-像素点画线线宽",
+        "说明摘要": "Enum_Pix-像素点画线线宽",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_PriceType-价格类型",
+        "说明摘要": "Enum_PriceType-价格类型",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_QStatus-Q行情状态枚举",
+        "说明摘要": "Enum_QStatus-Q行情状态枚举",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_QuoteStatus-行情状态类型",
+        "说明摘要": "Enum_QuoteStatus-行情状态类型",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Rate-费率类型",
+        "说明摘要": "Enum_Rate-费率类型",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_RequestStatus-委托状态",
+        "说明摘要": "Enum_RequestStatus-委托状态",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Section-字符串分割选项",
+        "说明摘要": "Enum_Section-字符串分割选项",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Signal-信号标志",
+        "说明摘要": "Enum_Signal-信号标志",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Strategy-公式运行标志",
+        "说明摘要": "Enum_Strategy-公式运行标志",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Style-画线风格",
+        "说明摘要": "Enum_Style-画线风格",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Style-画线样式",
+        "说明摘要": "Enum_Style-画线样式",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_TimeZone-时区标志",
+        "说明摘要": "Enum_TimeZone-时区标志",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Trade_Ignore-忽略信号类型",
+        "说明摘要": "Enum_Trade_Ignore-忽略信号类型",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Trade_Source-操作源类型",
+        "说明摘要": "Enum_Trade_Source-操作源类型",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 枚举",
+        "函数名": "Enum_Trade_Sub-交易订阅范围",
+        "说明摘要": "Enum_Trade_Sub-交易订阅范围",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 结构体",
+        "函数名": "CodeProperty-合约属性",
+        "说明摘要": "CodeProperty-合约属性",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 结构体",
+        "函数名": "AccountStatus-账户状态",
+        "说明摘要": "AccountStatus-账户状态",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 结构体",
+        "函数名": "AccountInfo-交易账户信息",
+        "说明摘要": "AccountInfo-交易账户信息",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 结构体",
+        "函数名": "Account-账户资金",
+        "说明摘要": "Account-账户资金",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 结构体",
+        "函数名": "Bar-Bar数据",
+        "说明摘要": "Bar-Bar数据",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 结构体",
+        "函数名": "BidAsk",
+        "说明摘要": "BidAsk",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 结构体",
+        "函数名": "CommissionRate-手续费率",
+        "说明摘要": "CommissionRate-手续费率",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 结构体",
+        "函数名": "DicData-基础数据结构体",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 结构体",
+        "函数名": "Fill-成交",
+        "说明摘要": "Fill-成交",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 结构体",
+        "函数名": "MarginRate-保证金费率",
+        "说明摘要": "MarginRate-保证金费率",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 结构体",
+        "函数名": "OrderRequest-报单请求",
+        "说明摘要": "OrderRequest-报单请求",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 结构体",
+        "函数名": "Order-委托",
+        "说明摘要": "Order-委托",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 结构体",
+        "函数名": "Position-持仓",
+        "说明摘要": "Position-持仓",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 结构体",
+        "函数名": "Signal-信号",
+        "说明摘要": "Signal-信号",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 结构体",
+        "函数名": "Tick-行情快照",
+        "说明摘要": "Tick-行情快照",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 结构体",
+        "函数名": "TimeStamp-毫秒时间",
+        "说明摘要": "TimeStamp-毫秒时间",
+        "来源文件": "tbquant_functions_part_8.json"
+    },
+    {
+        "分类": "附件 - 对象",
+        "函数名": "Plot对象",
+        "说明摘要": "Plot对象",
+        "来源文件": "tbquant_functions_part_9.json"
+    },
+    {
+        "分类": "附件 - 对象",
+        "函数名": "Dialog对象",
+        "说明摘要": "Dialog对象",
+        "来源文件": "tbquant_functions_part_9.json"
+    },
+    {
+        "分类": "附件 - 语法案例",
+        "函数名": "bar策略指标",
+        "说明摘要": "bar策略指标",
+        "来源文件": "tbquant_functions_part_9.json"
+    },
+    {
+        "分类": "附件 - 语法案例",
+        "函数名": "bar时间",
+        "说明摘要": "bar时间",
+        "来源文件": "tbquant_functions_part_9.json"
+    },
+    {
+        "分类": "附件 - 语法案例",
+        "函数名": "bar数据",
+        "说明摘要": "bar数据",
+        "来源文件": "tbquant_functions_part_9.json"
+    },
+    {
+        "分类": "附件 - 语法案例",
+        "函数名": "bar数据获取和写入",
+        "说明摘要": "bar数据获取和写入",
+        "来源文件": "tbquant_functions_part_9.json"
+    },
+    {
+        "分类": "附件 - 语法案例",
+        "函数名": "获取基础数据关联信息",
+        "说明摘要": "获取基础数据关联信息",
+        "来源文件": "tbquant_functions_part_9.json"
+    },
+    {
+        "分类": "附件 - 语法案例",
+        "函数名": "交易函数",
+        "说明摘要": "交易函数",
+        "来源文件": "tbquant_functions_part_9.json"
+    },
+    {
+        "分类": "附件 - 语法案例",
+        "函数名": "设置账户倍数",
+        "说明摘要": "设置账户倍数",
+        "来源文件": "tbquant_functions_part_9.json"
+    },
+    {
+        "分类": "附件 - 语法案例",
+        "函数名": "设置账户未发送的净委托量",
+        "说明摘要": "设置账户未发送的净委托量",
+        "来源文件": "tbquant_functions_part_9.json"
+    },
+    {
+        "分类": "附件 - 语法案例",
+        "函数名": "实时行情展示",
+        "说明摘要": "实时行情展示",
+        "来源文件": "tbquant_functions_part_9.json"
+    },
+    {
+        "分类": "附件 - 语法案例",
+        "函数名": "输出到k线图表",
+        "说明摘要": "输出到k线图表",
+        "来源文件": "tbquant_functions_part_9.json"
+    },
+    {
+        "分类": "附件 - 语法案例",
+        "函数名": "添加和删除自定义基础数据",
+        "说明摘要": "添加和删除自定义基础数据",
+        "来源文件": "tbquant_functions_part_9.json"
+    },
+    {
+        "分类": "附件 - 语法案例",
+        "函数名": "账户持仓信息展示",
+        "说明摘要": "账户持仓信息展示",
+        "来源文件": "tbquant_functions_part_9.json"
+    },
+    {
+        "分类": "附件 - 语法案例",
+        "函数名": "账户委托信息展示",
+        "说明摘要": "账户委托信息展示",
+        "来源文件": "tbquant_functions_part_9.json"
+    },
+    {
+        "分类": "附件 - 语法案例",
+        "函数名": "账户资金信息展示",
+        "说明摘要": "账户资金信息展示",
+        "来源文件": "tbquant_functions_part_9.json"
+    },
+    {
+        "分类": "附件 - 语法案例",
+        "函数名": "自定义优化目标输出",
+        "说明摘要": "自定义优化目标输出",
+        "来源文件": "tbquant_functions_part_9.json"
+    },
+    {
+        "分类": "附录",
+        "函数名": "exchange-交易所代码查询表",
+        "说明摘要": "exchange-交易所代码查询表",
+        "来源文件": "tbquant_functions_part_9.json"
+    },
+    {
+        "分类": "基础数据事件",
+        "函数名": "SubscribeDic-根据键名和关联名订阅基础数据事件",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_9.json"
+    },
+    {
+        "分类": "基础数据事件",
+        "函数名": "OnDic-基础数据事件函数",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_9.json"
+    },
+    {
+        "分类": "基础数据事件",
+        "函数名": "UnsubscribeDic-根据键名和关联名退订基础数据事件",
+        "说明摘要": "**",
+        "来源文件": "tbquant_functions_part_9.json"
+    }
+]
